@@ -1,0 +1,57 @@
+.weather{
+    width:200px;
+    box-shadow: 2px -4px 10px 2px black;
+    color: antiquewhite;
+    background-color: rgb(68, 65, 65);
+    /* margin-bottom: 10px; */
+    margin-top: 25px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.city{
+    margin: 0;
+    font-size:larger;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.weather-content{
+    margin: 0;
+    margin-top: 4px;
+    font-size: small;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.weather-icon{
+    margin: 0;
+    width: 50%;
+    height: 50%;
+
+}
+.temperature{
+    color: solid white;
+    margin-top:2px;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: -2px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.weather-bottom{
+    color: rgb(222, 213, 201);
+    font-style: italic;
+    font-weight: 400;
+    font-size: smaller;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px;
+    margin-bottom: 0;
+
+}
