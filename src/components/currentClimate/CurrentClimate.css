@@ -1,9 +1,10 @@
 .weather{
     width:200px;
     box-shadow: 2px -4px 10px 2px black;
-    color: antiquewhite;
-    background-color: rgb(68, 65, 65);
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(68, 65, 65); */
     /* margin-bottom: 10px; */
+
     margin-top: 25px;
     padding-bottom: 5px;
     border-radius: 5px;
@@ -44,7 +45,7 @@
 }
 
 .weather-bottom{
-    color: rgb(222, 213, 201);
+    color: rgb(5, 5, 5);
     font-style: italic;
     font-weight: 400;
     font-size: smaller;

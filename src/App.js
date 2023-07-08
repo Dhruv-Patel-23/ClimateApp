@@ -41,7 +41,7 @@ function App() {
         {liveWeather && <CurrentClimate data={liveWeather} />}
       </div>
       <div className="Fcontainer">
-         {forecastWeather &&  <Forecast/>}
+         {forecastWeather &&  <Forecast data={forecastWeather}/>}
         
       </div>
     </div>
